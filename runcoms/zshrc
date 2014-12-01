@@ -13,3 +13,4 @@ fi
 # Customize to your needs...
 alias s='ssh'
 alias sr='ssh -l root'
+alias rdp='xfreerdp -g 1440x968 -k 0x00000409 --plugin cliprdr -x l -u'
