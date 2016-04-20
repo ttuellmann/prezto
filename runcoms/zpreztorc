@@ -99,7 +99,7 @@ zstyle ':prezto:module:prompt' theme 'agnoster'
 # Python
 #
 
-zstyle ':prezto:module:python:info:virtualenv' format 'virtualenv:%v'
+zstyle ':prezto:module:python:info:virtualenv' format 'venv:%v'
 
 #
 # Ruby
