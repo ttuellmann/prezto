@@ -32,6 +32,7 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
+  'python' \
   'prompt'
 
 #
@@ -93,6 +94,12 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'agnoster'
+
+#
+# Python
+#
+
+zstyle ':prezto:module:python:info:virtualenv' format 'virtualenv:%v'
 
 #
 # Ruby
